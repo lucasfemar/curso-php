@@ -41,6 +41,9 @@
                         <li>
                             <a href="exercicio.php?dir=classes_objetos&file=abstract">Classe Abstrata</a>
                         </li>          
+                        <li>
+                            <a href="exercicio.php?dir=classes_objetos&file=desafio_erros">Desafio Erros</a>
+                        </li>          
                     </ul>
                 </div>
                 <div class="modulo vermelho-escuro"> 
