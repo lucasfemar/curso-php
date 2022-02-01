@@ -8,14 +8,14 @@ class Cliente {
 
     //funções
     public function apresentar(){
-        return "Nome: {$this->nome}<br> Idade: {$this->idade}";
+        return "Nome: {$this->nome} Idade: {$this->idade} <br>";
     }
 }
 
 $c1 = new Cliente();
 $c1->nome = 'Lucas';
 $c1->idade = '22';
-echo $c1->apresentar() . '<br>';
+echo $c1->apresentar();
 
 $c2 = new Cliente();
 $c2->nome = 'Joana';

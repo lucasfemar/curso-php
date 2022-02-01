@@ -14,9 +14,9 @@ class A {
     }
 
     public static function mostrarStaticA() {
-        //Impossível chamar membro não estáticos
-        //echo "Não estática = {$this->naoStatic}<br>;"
-        //echo "Estática = {$static}<br>";
+        //Impossível chamar membroa não estáticos
+        //echo "Não estática = {$this->naoStatic}<br>;" * Erro *
+        //echo "Estática = {$static}<br>"; * Erro *
         echo "Estática = " . self::$static . "<br>";
     }
 }

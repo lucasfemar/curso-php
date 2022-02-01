@@ -44,4 +44,6 @@ class Usuario extends Pessoa {
 
 $usuario = new Usuario('Lucas Ferreira', 22, 'lucasfemar');
 $usuario->apresentar();
+
+//Chamando destrutor
 unset($usuario);

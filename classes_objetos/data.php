@@ -1,6 +1,6 @@
 <div class="titulo">Classe Data</div>
 <?php
-class data{
+class Data {
 
     public $dia = 1;
     public $mes = 1;
@@ -11,10 +11,10 @@ class data{
     }
 }
 
-$data1 = new data();
+$data1 = new Data();
 echo $data1->apresentar() . '<br>';
 
-$data2 = new data();
+$data2 = new Data();
 $data2->dia = 23;
 $data2->mes = 02;
 $data2->ano = 2021;

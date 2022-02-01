@@ -13,17 +13,18 @@ foreach ($notas as $nota) {
 print_r($notasFinais1);
 
 echo '<br><br>Segundo Exemplo (Função Map)<br>';
-$notasFinais2 = array_map(round, $notas);
+$notasFinais2 = array_map("round", $notas);
 print_r($notasFinais2);
 
 echo '<br><br> Terceiro Exemplo<br>';
 echo '(Função Map, com função pesonalizada no parametro)<br>';
 
-function calculoLegal($nota){
+function calculoLegal($nota)
+{
     $notaFinal = round($nota) + 1;
     return $notaFinal > 10 ? 10 : $notaFinal;
 }
-$notasFinais3 = array_map(calculoLegal, $notas);
+$notasFinais3 = array_map("calculoLegal", $notas);
 print_r($notasFinais3);
 
 echo '<br><br><strong>FILTER</strong><br>';
@@ -42,5 +43,5 @@ function aprovados($nota)
 {
     return $nota >= 7;
 }
-$apenasOsAprovados2 = array_filter($notas, aprovados);
+$apenasOsAprovados2 = array_filter($notas, "aprovados");
 print_r($apenasOsAprovados2);

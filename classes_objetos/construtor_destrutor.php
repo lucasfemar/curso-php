@@ -26,7 +26,7 @@ echo $pessoaA->apresentar() . '<br>';
 //chama destrutor
 unset($pessoaA);
 
-$pessoaB = new Pessoa('Rafaela Teixeira', 21);
+$pessoaB = new Pessoa('Joana Silva');
 echo $pessoaB->apresentar() . '<br>';
 
 //chama destrutor

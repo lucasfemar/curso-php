@@ -44,5 +44,5 @@ $b->mostrarB();
 echo '<br>';
 $b->mostrarA();
 
-//Não funciona pois "vaiPorHeranca()" só pode ser acessada dentro da classe heranç
 // $b->vaiPorHeranca();
+//Não funciona pois "vaiPorHeranca()" só pode ser acessada dentro da classe herança
