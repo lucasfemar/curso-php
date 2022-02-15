@@ -16,6 +16,26 @@
     <main class="principal">
         <div class="conteudo">
             <nav class="modulos">
+                <div class="modulo roxo-escuro">
+                    <h3>9. Includes</h3>
+                    <ul>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include">
+                                Include
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include_funcao">
+                                Include Função
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include_require">
+                                Include vs Require
+                            </a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="modulo azul-escuro">
                     <h3>8. Paradigma O.O.</h3>
                     <ul>
@@ -63,7 +83,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="modulo vermelho-escuro"><h3>7. Funções</h3>
+                <div class="modulo vermelho-escuro">
+                    <h3>7. Funções</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=funcoes&file=escopo">Escopo</a>
@@ -103,7 +124,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="modulo verde-escuro"><h3>6. Repetições</h3>
+                <div class="modulo verde-escuro">
+                    <h3>6. Repetições</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=repeticoes&file=for">Laço For</a>
@@ -131,7 +153,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="modulo laranja"><h3>5. Array</h3>
+                <div class="modulo laranja">
+                    <h3>5. Array</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=array&file=basico">Array</a>
@@ -165,7 +188,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="modulo roxo"><h3>4. Controle</h3>
+                <div class="modulo roxo">
+                    <h3>4. Controle</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=controle&file=if_else">
@@ -209,7 +233,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="modulo azul"><h3>3. Variáveis</h3>
+                <div class="modulo azul">
+                    <h3>3. Variáveis</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=variaveis&file=basico">
@@ -253,7 +278,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="modulo vermelho"><h3>2. Tipos</h3>
+                <div class="modulo vermelho">
+                    <h3>2. Tipos</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=tipos&file=int">
@@ -297,7 +323,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="modulo verde"><h3>1. Básico</h3>
+                <div class="modulo verde">
+                    <h3>1. Básico</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=basico&file=ola">
