@@ -24,7 +24,7 @@
             </li>
             <li>
                 <a href="exercicio.php?dir=includes&file=include_once">
-                    Include Once Twice
+                    Include Once
                 </a>
             </li>
         </ul>
